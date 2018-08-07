@@ -1567,3 +1567,17 @@ Processing by SearchesController#search as HTML
 Redirected to https://foursquare.com/oauth2/authenticate?client_id=4HZT4OFM0X5K0ZEJKWPIPFHLUA1VHC2WZY1QLOGDAMZMFPOT&response_type=code&redirect_uri=http%3A%2F%2F165.227.31.208%3A39744%2Fauth
 Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=MY3VY2VTXC5PW13BUVCH5BRJFWMZ1441LGZTY1MWBSHPZWKT" for 69.144.1.141 at 2018-08-07 00:12:18 +0000
+Cannot render console from 69.144.1.141! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"MY3VY2VTXC5PW13BUVCH5BRJFWMZ1441LGZTY1MWBSHPZWKT"}
+Redirected to http://165.227.31.208:39744/
+Completed 302 Found in 476ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 69.144.1.141 at 2018-08-07 00:12:19 +0000
+Cannot render console from 69.144.1.141! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.4ms)
